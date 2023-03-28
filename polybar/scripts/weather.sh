@@ -6,7 +6,7 @@
 
 APIKEY=`cat $HOME/.config/polybar/scripts/key.txt`
 CITY_NAME='1566083'
-COUNTRY_CODE='VN'
+COUNTRY_CODE='84'
 # Desired output language
 LANG="en"
 # UNITS can be "metric", "imperial" or "kelvin". Set KNOTS to "yes" if you
@@ -190,18 +190,18 @@ function setIcons {
         # Few clouds
         if [ $DATE -ge $SUNRISE -a $DATE -le $SUNSET ]; then
             ICON_COLOR=$COLOR_SUN
-            ICON=""
+            ICON=""
         else
             ICON_COLOR=$COLOR_MOON
-            ICON=""
+            ICON=""
         fi
     elif [ $WID -le 804 ]; then
         # Overcast
         ICON_COLOR=$COLOR_CLOUD
-        ICON=""
+        ICON=""
     else
         ICON_COLOR=$COLOR_ERR
-        ICON=""
+        ICON=""
     fi
     WIND=""
     WINDFORCE=`echo "$RESPONSE" | jq .wind.speed`
