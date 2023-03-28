@@ -1,0 +1,18 @@
+2023/03/28-00:41:26.400 3 Reusing MANIFEST /home/phuong/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/28-00:41:26.403 3 Recovering log #10
+2023/03/28-00:41:26.403 3 Reusing old log /home/phuong/.config/google-chrome/Default/Local Storage/leveldb/000010.log 
+2023/03/28-00:52:28.926 3 Level-0 table #14: started
+2023/03/28-00:52:28.932 3 Level-0 table #14: 19038 bytes OK
+2023/03/28-00:52:28.938 3 Delete type=0 #10
+2023/03/28-00:58:01.389 5 Level-0 table #16: started
+2023/03/28-00:58:01.403 5 Level-0 table #16: 129082 bytes OK
+2023/03/28-00:58:01.409 5 Delete type=0 #13
+2023/03/28-00:58:01.410 5 Compacting 4@0 + 1@1 files
+2023/03/28-00:58:01.425 5 Generated table #17@0: 145 keys, 144298 bytes
+2023/03/28-00:58:01.425 5 Compacted 4@0 + 1@1 files => 144298 bytes
+2023/03/28-00:58:01.429 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/28-00:58:01.431 5 Delete type=2 #7
+2023/03/28-00:58:01.431 5 Delete type=2 #9
+2023/03/28-00:58:01.431 5 Delete type=2 #11
+2023/03/28-00:58:01.431 5 Delete type=2 #14
+2023/03/28-00:58:01.432 5 Delete type=2 #16

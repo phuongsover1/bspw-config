@@ -1,0 +1,22 @@
+Restart BSPWM,bspc wm -r,alc
+Restart Polybar,sh ~/.config/polybar/launch.sh,xfce4-systray
+Restart Picom,killall picom ; picom &,preferences-system-windows
+^sep()
+
+Color Picker,colorpicker,gcolor2
+Change Wallpaper,feh --bg-fill ~/Pictures/wallpapers -z,preferences-desktop-wallpaper
+^sep()
+
+Applications,launcher,jgmenu
+Terminal,bspc rule -a \* -o state=floating ; alacritty,Alacritty
+File Manager,thunar,stock_folder
+Sauce,bspc desktop -f 6 && mpv https://pornhub.com/random,face-devilish
+^sep()
+
+Lock,betterlockscreen -l dimblur,utox
+Exit,^checkout(exit),backdoor-factory
+^tag(exit)
+Suspend,systemctl suspend,system-suspend
+Reboot,systemctl reboot,system-reboot
+Poweroff,systemctl poweroff,system-shutdown
+Log Out,killall xinit,backdoor-factory
