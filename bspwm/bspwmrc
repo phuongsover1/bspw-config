@@ -45,7 +45,9 @@ dunst &
 [ -n "$(pidof kotatogram-desktop)" ] || kotatogram-desktop &
 
 # Wallpaper
-~/.fehbg &
+variety &
+fcitx5 &
+#~/.fehbg &
 
 thunar --daemon &
 
