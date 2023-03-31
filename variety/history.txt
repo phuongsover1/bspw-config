@@ -1,4 +1,7 @@
 0
+/home/phuong/.config/variety/Fetched/1250735.jpg
+/home/phuong/.config/variety/Fetched/1287669.png
+/home/phuong/Pictures/wallpapers/kratos.jpg
 /home/phuong/Pictures/wallpapers/bloodasa.png
 /home/phuong/.config/variety/Fetched/1203840.jpg
 /home/phuong/Pictures/wallpapers/makima2.jpg
@@ -96,6 +99,3 @@
 /home/phuong/Pictures/wallpapers/guts2.jpg
 /home/phuong/.config/variety/Fetched/1293881.jpg
 /home/phuong/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_makima_categories_010_purity_111_sorting_random/wallhaven-xlrodo.png
-/home/phuong/.config/variety/Fetched/1250735.jpg
-/home/phuong/.config/variety/Fetched/1296073.jpg
-/home/phuong/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_makima_categories_010_purity_111_sorting_random/wallhaven-wy9gw6.png
