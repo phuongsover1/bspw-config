@@ -44,6 +44,7 @@ dunst &
 # Kotatogram
 [ -n "$(pidof kotatogram-desktop)" ] || kotatogram-desktop &
 
+brightnessctl -s 3000
 # Wallpaper
 variety &
 fcitx5 &
@@ -53,9 +54,10 @@ thunar --daemon &
 
 # ----------------------- RULES -----------------------
 
-rule Brave-browser         desktop='^2'
+rule firefox               desktop='^3'
 rule KotatogramDesktop     desktop='^3'
 rule discord               desktop='^6'
+rule Spotify               desktop='^4'
 rule Transmission-gtk      desktop='^5'
 rule Gimp-2.10             desktop='^6'
 rule mpv                   desktop='^6' state=fullscreen
@@ -85,10 +87,10 @@ bspc config paddingless_monocle true
 bspc config single_monocle      false
 config focus_follows_pointer    true
 
-config top_padding              48
-config bottom_padding           5
-config left_padding             5
-config right_padding            5
+config top_padding              60
+config bottom_padding           12
+config left_padding             12
+config right_padding            12
 
 config pointer_modifier         mod4
 config pointer_action1          move
